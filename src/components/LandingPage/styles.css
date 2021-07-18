@@ -1,0 +1,903 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+
+/*Background*/
+
+
+.bgimg{
+    background-color: rgba(1,1,1,2);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    /*padding-bottom: 60px;*/
+}
+
+                                                    /*Navigation bar*/
+
+/*icon*/
+.logoChanges{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 10%;
+    width: auto;
+    /*size: 10px;*/
+}
+
+/*icon name*/
+
+.logoText{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 40px !important;
+    color: rgba(255,255,255,2) !important;
+    text-decoration: none !important;
+    display: block;
+    border-bottom: 3px solid transparent ;
+    margin-left: 120px;
+}
+/*Navigation Menu*/
+
+.nav-custom{
+    background-color: rgba(1,1,1,2) !important;
+    overflow: auto;
+}
+
+.navCustom2 a{
+    color: rgba(255,255,255,10);
+    text-decoration: none;
+    display: block;
+    border-bottom: 3px solid transparent;
+    border-spacing: 30px;
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 23px;
+}
+
+.navCustom2 a:hover{
+    color: rgba(255,255,255,2);
+    border-bottom: 3px solid rgb(255,205,6);
+}
+.navCustom2 a:active{
+    border-bottom: 3px solid rgb(255,205,6);
+}
+
+.navbar-toggler-icon{
+    background-image: url("../../assets/images/buttons/navBar.png") !important;
+}
+
+                                                    /*Name And About*/
+
+
+.modification_1{
+    height: 200%;
+    padding: 50px;
+}
+/*mysection*/
+
+.mySection{
+    padding: 170px 20px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Name*/
+
+.name{
+    color: rgba(255,255,255,5);
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 60px;
+}
+
+/*Position*/
+
+
+.myPosition{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 35px;
+    color: rgba(255,255,255,5);
+}
+/*about me*/
+
+
+.aboutMe{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 25px;
+    color: rgba(255,255,255,0.5);
+    alignment: center;
+    padding: 1px 10px;
+}
+/*know more button*/
+
+.knowMore{
+    background-image: url("../../assets/images/buttons/rect80.svg");
+    background-color: rgba(1,1,1,5);
+    color: rgba(255,0,0,5);
+    padding: 11px 8.7px;
+    text-decoration: none !important;
+}
+.knowMore:hover{
+    background-color: rgba(1,1,1,5);
+    color: rgba(251,252,246,1);
+    text-decoration: none !important;
+}
+
+/*Lotti image*/
+
+.lotti1{
+    padding: 80px 3px 30px;
+}
+
+/*tag line*/
+
+.tagLine{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 40px;
+    color: rgba(82,67,35,3);
+    padding: 2px 80px 2px !important;
+}
+
+
+
+
+                                            /*my achievements*/
+
+
+.certificate{
+    background-color: rgba(1,1,1,1);
+    padding: 200px 30px 90px;
+    background-attachment: fixed;
+
+}
+
+
+
+/*Title*/
+.certificate h1 {
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 60px;
+    color: rgba(255,255,255,5);
+    padding: 20px 80px 90px !important;
+}
+
+.certify{
+    background-image: url("../../assets/images/buttons/rect80.svg");
+    background-color: rgba(1,1,1,5);
+    color: rgba(255,0,0,5);
+    padding: 11px 42.5px;
+    text-decoration: none !important;
+}
+
+.certify:hover{
+    background-color: rgba(1,1,1,5);
+    color: rgba(251,252,246,1);
+    text-decoration: none !important;
+}
+
+.certify2{
+    background-image: url("../../assets/images/buttons/rect80.svg");
+    background-color: rgba(1,1,1,5);
+    color: rgba(255,0,0,5);
+    padding: 11px 21px;
+    text-decoration: none !important;
+}
+
+.certify2:hover{
+    background-color: rgba(1,1,1,5);
+    color: rgba(251,252,246,1);
+    text-decoration: none !important;
+}
+
+.certify3{
+    background-image: url("../../assets/images/buttons/rect80.svg");
+    background-color: rgba(1,1,1,5);
+    color: rgba(255,0,0,5);
+    padding: 11px 41px;
+    text-decoration: none !important;
+}
+
+.certify3:hover{
+    background-color: rgba(1,1,1,5);
+    color: rgba(251,252,246,1);
+    text-decoration: none !important;
+}
+
+.certificate h2{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 60px;
+    color: rgba(255,255,255,5);
+    padding: 20px 80px 10px !important;
+
+}
+
+
+.blogEdit{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 40px !important;
+    color: rgba(255,255,255,5);
+    padding: 40px 100px 50px !important;
+
+}
+
+.certificate p{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    color: rgba(255,255,255,5);
+    padding: 20px 80px 1px !important;
+}
+
+.certificate h3{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    color: rgba(82,67,35,3);
+    padding: 25px 50px 5px;
+    text-align: justify;
+}
+
+/*Full section configuration*/
+
+
+.myAchievements h2{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 40px;
+    color: rgba(82,67,35,3);
+}
+
+.myAchievements h5{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 50px;
+    color: rgba(255,205,6,3);
+    padding: 20px 70px 20px;
+}
+
+.myAchievements h4{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    color: rgba(255,255,255,3);
+    padding: 20px 70px 20px;
+    text-align: justify;
+}
+
+.myAchievements h3{
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 15px;
+    color: rgba(82,67,35,3);
+}
+
+#asia{
+    padding-right: 100px;
+}
+
+#knowMore2{
+    background-color: rgba(255,205,6,3);
+    color: rgba(82,67,35,3);
+    padding: 8px 18px !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+#knowMore2:hover{
+    background-color: rgba(255,255,255,3);
+}
+
+.top {
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  border: 1px solid black;
+  z-index: 1;
+ }
+
+
+
+#animation{
+    background-color: rgba(1,1,1,5);
+}
+
+.bgimg2{
+    background-image: url("../../assets/images/backgrounds/dark_2.svg");
+    height: 300%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.socialMedia{
+    padding: 100px 100px 80px;
+}
+
+#reachMe{
+    color: rgba(4,119,125,5);
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 60px;
+}
+#reachMe2{
+    color: rgba(82,67,35,3);
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 40px;
+}
+
+#imgSetting1{
+    padding-left: 40px;
+}
+#imgSetting2{
+    padding-left: 3px;
+}
+#imgSetting3{
+    padding-left: 3px;
+}
+#imgSetting4{
+    padding-left: 3px;
+}
+#imgSetting5{
+    padding-left: 3px;
+}
+
+
+.modification_2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.copyrightColumn{
+    padding-left: 150px;
+}
+
+.footTitle{
+    color: red;
+}
+
+.footBody{
+    color: rgba(255,255,255,5);
+    list-style-type: none;
+}
+
+
+                /*Footer*/
+
+.navCustom3 a{
+    color: rgba(255,255,255,10) !important;
+    text-decoration: none;
+    display: block;
+    border-bottom: 3px solid transparent;
+    border-spacing: 30px;
+    font-family:'Baloo Paaji 2', cursive;
+    font-size: 15px;
+}
+
+.navCustom3 a:hover{
+    color: rgba(255,255,255,2);
+    border-bottom: 2px solid rgb(255,205,6);
+    border-top: 2px solid rgb(255,205,6);
+    border-left: 2px solid rgb(255,205,6);
+    border-right: 2px solid rgb(255,205,6);
+}
+.navCustom3 a:active{
+    border-bottom: 2px solid rgb(255,205,6);
+    border-top: 2px solid rgb(255,205,6);
+    border-left: 2px solid rgb(255,205,6);
+    border-right: 2px solid rgb(255,205,6);
+}
+
+
+/**********************************************************************************************************/
+
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logoChanges{
+        margin-left: 10px;
+    }
+    .logoText{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 40px !important;
+        color: rgba(255,255,255,2) !important;
+        text-decoration: none !important;
+        display: block;
+        border-bottom: 3px solid transparent ;
+        margin-left: 20px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+    #lotti1{
+        height: 100% !important;
+        width: 100% !important;
+        margin-left: 20px !important;
+    }
+
+    .certificate h1{
+        font-size: 35px;
+        padding: 10px 5px 10px;
+    }
+    .certify{
+        padding: 10px 20px 10px;
+    }
+    .certificate h2{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    .certificate h3{
+        font-size: 12px;
+    }
+
+    .badges{
+        padding:  10px 5px 10px;
+    }
+
+    .myAchievements h2{
+        font-size: 35px;
+    }
+    .myAchievements h5{
+        font-size: 35px;
+        display: inline;
+        padding: 50px 10px 10px 10px;
+    }
+    .myAchievements h4{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+    #asia{
+        padding: 10px 10px 10px 10px;
+    }
+    #knowMore2{
+        padding: 5px 11px 11px 5px;
+        margin-top: 50px;
+        display: inline;
+
+    }
+    #lotiianim{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #youiframe{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #chanel{
+        font-size: 25px;
+        display: inline !important;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px;
+    }
+
+
+
+    .bgimg2{
+        padding-bottom: 80px;
+    }
+    .socialMedia h1{
+        font-size: 30px !important;
+    }
+
+    .socialMedia h2{
+        font-size: 20px !important;
+    }
+
+    #lotti2{
+        height: 195px !important;
+        width: 195px !important;
+        margin-right: 35px;
+    }
+    #lotti3{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #lotti4{
+        height: 160px !important;
+        width: 160px !important;
+        margin-left: 50px;
+    }
+
+    .subscribe h2{
+        font-size: 30px;
+    }
+    .subscribe h3{
+        font-size: 20px;
+    }
+    .subscribe a{
+        margin-left: 290px;
+    }
+
+    #loti5{
+        height: 100% !important;
+        width: 100% !important;
+        padding-top: 15px;
+    }
+}
+
+
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .logoChanges{
+        margin-left: 10px;
+    }
+    .logoText{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 40px !important;
+        color: rgba(255,255,255,2) !important;
+        text-decoration: none !important;
+        display: block;
+        border-bottom: 3px solid transparent ;
+        margin-left: 20px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+    #lotti1{
+        height: 100% !important;
+        width: 100% !important;
+        margin-left: 20px !important;
+    }
+
+    .certificate h1{
+        font-size: 35px;
+        padding: 10px 5px 10px;
+    }
+    .certify{
+        padding: 10px 20px 10px;
+    }
+    .certificate h2{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    .certificate h3{
+        font-size: 12px;
+    }
+
+    .badges{
+        padding:  10px 5px 10px;
+    }
+
+    .myAchievements h2{
+        font-size: 35px;
+    }
+    .myAchievements h5{
+        font-size: 35px;
+        display: inline;
+        padding: 50px 10px 10px 10px;
+    }
+    .myAchievements h4{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+    #asia{
+        padding: 10px 10px 10px 10px;
+    }
+    #knowMore2{
+        padding: 5px 11px 11px 5px;
+        margin-top: 50px;
+        display: inline;
+    }
+    #lotiianim{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #youiframe{
+        height: 300px !important;
+        width: 100% !important;
+    }
+    #chanel{
+        font-size: 25px;
+        display: inline !important;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px;
+    }
+
+
+    .bgimg2{
+        padding-bottom: 80px;
+    }
+    .socialMedia h1{
+        font-size: 30px !important;
+    }
+
+    .socialMedia h2{
+        font-size: 20px !important;
+    }
+
+    #lotti2{
+        height: 195px !important;
+        width: 195px !important;
+        margin-right: 35px;
+    }
+    #lotti3{
+        height: 350px !important;
+        width: 350px !important;
+    }
+    #lotti4{
+        height: 160px !important;
+        width: 160px !important;
+        margin-left: 50px;
+    }
+
+    .subscribe h2{
+        font-size: 30px;
+    }
+    .subscribe h3{
+        font-size: 20px;
+    }
+    .subscribe a{
+        margin-left: 290px;
+    }
+
+    #loti5{
+        height: 100% !important;
+        width: 100% !important;
+        padding-top: 15px;
+    }
+}
+
+
+
+@media (min-width: 480px) and (max-width: 574px) {
+    .logoChanges{
+        margin-left: 10px;
+    }
+    .logoText{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 40px !important;
+        color: rgba(255,255,255,2) !important;
+        text-decoration: none !important;
+        display: block;
+        border-bottom: 3px solid transparent ;
+        margin-left: 20px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+    #lotti1{
+        height: 100% !important;
+        width: 100% !important;
+        margin-left: 20px !important;
+    }
+
+    .certificate h1{
+        font-size: 35px;
+        padding: 10px 5px 10px;
+    }
+    .certify{
+        padding: 10px 20px 10px;
+    }
+    .certificate h2{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    .certificate h3{
+        font-size: 12px;
+    }
+
+    .badges{
+        padding:  10px 5px 10px;
+    }
+
+    .myAchievements h2{
+        font-size: 35px;
+    }
+    .myAchievements h5{
+        font-size: 35px;
+        display: inline;
+        padding: 50px 10px 10px 10px;
+    }
+    .myAchievements h4{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+    #asia{
+        padding: 10px 10px 10px 10px;
+    }
+    #knowMore2{
+        padding: 5px 11px 11px 5px;
+        margin-top: 50px;
+        display: inline;
+
+    }
+    #lotiianim{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #youiframe{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #chanel{
+        font-size: 25px;
+        display: inline !important;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px;
+    }
+
+
+
+    .bgimg2{
+        padding-bottom: 80px;
+    }
+    .socialMedia h1{
+        font-size: 30px !important;
+    }
+
+    .socialMedia h2{
+        font-size: 20px !important;
+    }
+
+    #lotti2{
+        height: 195px !important;
+        width: 195px !important;
+        margin-right: 35px;
+    }
+    #lotti3{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #lotti4{
+        height: 160px !important;
+        width: 160px !important;
+        margin-left: 50px;
+    }
+
+    .subscribe h2{
+        font-size: 30px;
+    }
+    .subscribe h3{
+        font-size: 20px;
+    }
+    .subscribe a{
+        margin-left: 290px;
+    }
+
+    #loti5{
+        height: 100% !important;
+        width: 100% !important;
+        padding-top: 15px;
+    }
+}
+
+
+/********************************************************************************/
+
+
+@media (max-width: 478px) {
+    .logoChanges{
+        margin-left: 10px;
+    }
+    .logoText{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 40px !important;
+        color: rgba(255,255,255,2) !important;
+        text-decoration: none !important;
+        display: block;
+        border-bottom: 3px solid transparent ;
+        margin-left: 20px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+    .myPosition{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 25px;
+        color: rgba(82,67,42,3);
+    }
+    /*about me*/
+
+
+    .aboutMe{
+        font-family:'Baloo Paaji 2', cursive;
+        font-size: 20px;
+        color: rgba(82,67,42,3);
+        alignment: center;
+        padding: 1px 10px;
+    }
+    #lotti1{
+        height: 100% !important;
+        width: 100% !important;
+        margin-left: 40px !important;
+    }
+
+
+    .certificate h1{
+        font-size: 35px;
+        padding: 10px 5px 10px;
+    }
+    .certify{
+        padding: 10px 20px 10px;
+    }
+    .certificate h2{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    .certificate h3{
+        font-size: 12px;
+        padding:20px 5px ;
+    }
+
+    .badges{
+        padding:  25px 5px 25px;
+    }
+
+    .myAchievements h2{
+        font-size: 35px;
+    }
+    .myAchievements h5{
+        font-size: 35px;
+        display: inline;
+        padding: 50px 10px 10px 10px;
+    }
+    .myAchievements h4{
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+    #asia{
+        padding: 10px 10px 10px 10px;
+    }
+    #knowMore2{
+        padding: 5px 11px 11px 5px;
+        margin-top: 50px;
+        display: inline;
+    }
+    #lotiianim{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #youiframe{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #chanel{
+        font-size: 25px;
+        display: inline !important;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px;
+    }
+
+
+
+    .bgimg2{
+        padding-bottom: 80px;
+    }
+    .socialMedia h1{
+        font-size: 30px !important;
+    }
+
+    .socialMedia h2{
+        font-size: 20px !important;
+    }
+
+    #lotti2{
+        height: 195px !important;
+        width: 195px !important;
+        margin-right: 35px;
+    }
+    #lotti3{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #lotti4{
+        height: 160px !important;
+        width: 160px !important;
+        margin-left: 100px;
+    }
+
+    .subscribe h2{
+        font-size: 30px;
+    }
+    .subscribe h3{
+        font-size: 20px;
+    }
+    .subscribe a{
+        margin-left: 60px;
+    }
+
+    #loti5{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+
+}
