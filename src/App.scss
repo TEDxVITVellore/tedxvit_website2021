@@ -1,0 +1,11 @@
+@import "./breakpoints.scss";
+/*default*/
+*,*::before,*::after {
+  margin:0;
+  padding:0;
+}
+
+body,html,p {
+  margin:0;
+  padding: 0;
+}
