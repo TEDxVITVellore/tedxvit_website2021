@@ -1,0 +1,104 @@
+
+@import "../../variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap');
+
+.homePage {
+    background-color:$bgcolor;
+    width:100vw;
+    height:auto;
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Paaji 2', cursive;
+    //header element
+    .header {
+        width:100%;
+        position: fixed;
+        top:0;
+        left:0;
+        background-color: $bgcolor;
+        padding-block: 1.5em;
+        font-size:1.4375rem;//24px;
+        .header-content{
+            margin-inline:auto;
+            padding-inline: 2em;
+            max-width:80rem;
+            color:white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        // make all direct descendents section elements of home page bg color black
+        & > section {
+            background-color: $bgcolor;
+        }
+        &__logoContainer {
+            img {
+                transform: scale(1.7);
+                position: relative;
+                top:10px;
+            }
+        }
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+            ul {
+                list-style: none;
+                text-decoration: none;
+                font-size:1.575rem;//24px;
+                li{
+                    display: inline; //makes it horizontal
+                    margin: 0.4rem; //30px
+                    letter-spacing: 0.6px;
+                }
+                li:hover {
+                    border-bottom: 3px solid #ffcd06;
+                }
+            }
+        }
+    }
+    //heroSectino
+    .heroSection {
+        width:100%;
+        height:100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__banner {
+            padding:1em;
+            color:white;
+            font-size:1rem;
+            text-align:center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+              font-size: 3.75rem;  //60px
+              margin-bottom: 0.2em;
+              font-weight: 400;
+            }
+            p{
+                color:grey;
+                font-size: 1.5625rem;//25px
+                white-space: wrap;
+                margin-bottom:1.9em; //space between button and paragrah text
+            }
+            &__button {
+                border-radius: 100px;
+                border: 1px solid red;
+                color:red;
+                height:8px;
+                width:140px;
+                font-size: 1rem;
+                padding:1em;
+                white-space: nowrap;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &__bannerImage {
+            color:white;
+
+        }
+    }
+}
