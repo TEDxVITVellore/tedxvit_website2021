@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HomePage.scss"
 
-import Logo from "../../assets/images/logo/logo.svg"
+import Logo from "../../assets/images/logo/logo.png"
 import Design1 from "../../assets/images/backgrounds/design_1.svg"
 const HomePage = () => {
     return (
@@ -26,7 +26,7 @@ const HomePage = () => {
             {/* first thing you see on entering the site */}
             <section className="heroSection">
                 <div className="heroSection__banner">
-                    <h1>Ideas worth spreading. </h1>
+                    <h1>Ideas worth spreading.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br /> Expedita, voluptate.</p>
                     <div className="heroSection__banner__button">Upcoming Events</div>
                 </div>
