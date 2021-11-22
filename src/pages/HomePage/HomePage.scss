@@ -2,7 +2,7 @@
 @import "../../variables.scss";
 @import "../../breakpoints.scss";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap');
-
+$blog_breakpoint: "<=1366px";
 .homePage {
     background-color:$bgcolor;
     width:100vw;
@@ -224,6 +224,83 @@
             }
             @include media("<=tablet") {
                 margin-bottom: 2.5em;
+            }
+        }
+    }
+    //blogs Container and stuff
+    .blogs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100vw;
+        height:100vh;
+        overflow-y: hidden;
+        position: relative;
+        @include media("<=desktop") {
+            flex-direction: column;
+        }
+        &__imageContainer{
+            @include media("<=desktop") {
+                margin-bottom: 3em;
+            }
+            img {
+                display: flex;
+                position: absolute;
+            }
+            #blogBg {
+                z-index:0;
+                top:0;
+                left:0;
+                @include media($blog_breakpoint){
+                    display: none;
+                }
+            }
+            #blogPhone {
+                z-index:10;
+                top: 100px;
+                left:38%;
+                @include media($blog_breakpoint){
+                    left:15%;
+                    transform:scale(1.4);
+                }
+                @include media("<=desktop") {
+                    left:50%;
+                    transform: scale(1.4) translate(-35%,0%);
+                }
+            }
+        }
+        &__infoContainer {
+            color:white;
+            text-align:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-inline: 6em;
+            @include media("<=desktop") {
+                margin-top:2em;
+            }
+            h1 {
+                font-size:2.8rem;
+                font-weight: 400;
+                @include media("<=desktop") {
+                    font-size:2rem;
+                }
+            }
+            p{
+                color:grey;
+                font-size:1.7rem;
+                text-align: center;
+            }
+            &__readBlog {
+                margin-top:3em;
+                border:1px solid red;
+                border-radius: 100px;
+                padding: 0.3rem 3rem;
+                p{
+                    color:red;
+                    font-size:1rem;
+                }
             }
         }
     }

@@ -3,6 +3,8 @@ import "./HomePage.scss"
 
 import Logo from "../../assets/images/logo/logo.png"
 import Design1 from "../../assets/images/backgrounds/design_1.svg"
+import BlogBg from "../../assets/images/backgrounds/design_2.svg"
+import BlogPhone from "../../assets/images/backgrounds/design_3.svg"
 import MerakiLogo from '../../assets/images/events/meraki.svg'
 import { BsFillCalendarEventFill } from "react-icons/bs"
 import { HiDesktopComputer } from "react-icons/hi"
@@ -38,6 +40,7 @@ const HomePage = () => {
                     <img src={Design1} alt="design1" />
                 </div>
             </section>
+            {/* upcoming events */}
             <section className="upcoming">
                 <h1>Upcoming Events</h1>
                 <div className="upcoming-flexContainer">
@@ -58,6 +61,20 @@ const HomePage = () => {
                                 <p>Register</p>
                             </div>
                         </footer>
+                    </div>
+                </div>
+            </section>
+            {/* blogs section */}
+            <section className="blogs">
+                <div className="blogs__imageContainer">
+                    <img id="blogBg" src={BlogBg} alt="blog background" />
+                    <img id="blogPhone" src={BlogPhone} alt="blog phone" />
+                </div>
+                <div className="blogs__infoContainer">
+                    <h1>Doing NOTHING is somtimes<br />everything.</h1>
+                    <p>By:- Oshika</p>
+                    <div className="blogs__infoContainer__readBlog">
+                        <p>Read Full Blog</p>
                     </div>
                 </div>
             </section>
