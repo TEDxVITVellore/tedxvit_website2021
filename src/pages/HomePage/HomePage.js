@@ -2,6 +2,7 @@ import React from 'react'
 import "./HomePage.scss"
 
 import Logo from "../../assets/images/logo/logo.png"
+import FooterLogo from "../../assets/images/logo/logo.svg"
 import Design1 from "../../assets/images/backgrounds/design_1.svg"
 import BlogBg from "../../assets/images/backgrounds/design_2.svg"
 import BlogPhone from "../../assets/images/backgrounds/design_3.svg"
@@ -64,6 +65,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <h1 className="blogs_title">Our Blogs !</h1>
             {/* blogs section */}
             <section className="blogs">
                 <div className="blogs__imageContainer">
@@ -78,6 +80,40 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <footer className="footer">
+                <section className="footer-grid">
+                    <section className="footer-grid__image">
+                        <img src={FooterLogo} alt="" className="logoContainer" />
+                    </section>
+                    <section className="footer-grid__chapter">
+                        <h1 className="footer-grid__chapter__title">
+                            TED Links
+                        </h1>
+                        <span className="footer-grid__chapter__items">Terms of use</span><br />
+                        <span className="footer-grid__chapter__items">Privacy Notice</span><br />
+                        <span className="footer-grid__chapter__items">Cookie Policy</span><br />
+                        <span className="footer-grid__chapter__items">Code Of Conduct</span><br />
+                        <span className="footer-grid__chapter__items">Refer a Friend FAQ</span><br />
+                    </section>
+                    <section className="footer-grid__chapter">
+                        <h1 className="footer-grid__chapter__title">
+                            Resources
+                        </h1>
+                        <span className="footer-grid__chapter__items">About</span><br />
+                        <span className="footer-grid__chapter__items">Contact Us</span><br />
+                        <span className="footer-grid__chapter__items">Community</span><br />
+                        <span className="footer-grid__chapter__items">Blog </span><br />
+                        <span className="footer-grid__chapter__items">Media</span><br />
+                    </section>
+                    <section className="footer-grid__chapter">
+                        <h1 className="footer-grid__chapter__title">
+                            Contact Us
+                        </h1>
+                        <span className="footer-grid__chapter__items">+91 999999999999</span>
+                        <span className="footer-grid__chapter__items">tedxvit@gmail.com</span>
+                    </section>
+                </section>
+            </footer>
         </article>
     )
 }
