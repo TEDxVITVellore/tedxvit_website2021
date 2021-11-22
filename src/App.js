@@ -1,10 +1,13 @@
 import './App.scss';
 import HomePage from './pages/HomePage/HomePage';
+import { IconContext } from "react-icons";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <IconContext.Provider value={{ color: "#4b4b4b", className: "icons" }}>
+        <HomePage />
+      </IconContext.Provider>
     </>
   );
 }
